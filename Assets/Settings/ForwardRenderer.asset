@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_RendererFeatures:
   - {fileID: 2797631961199091159}
-  m_RendererFeatureMap: d71d8d3b722fd326
+  - {fileID: 6752438638051502930}
+  - {fileID: 230224471949598334}
+  m_RendererFeatureMap: d71d8d3b722fd32652abae542a7bb55d7e5e28fdefeb3103
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   shaders:
@@ -29,10 +31,10 @@ MonoBehaviour:
     materialErrorPS: {fileID: 4800000, guid: 5fd9a8feb75a4b5894c241777f519d4e, type: 3}
   m_OpaqueLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1
   m_TransparentLayerMask:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 1
   m_DefaultStencilState:
     overrideStencilState: 0
     stencilReference: 0
@@ -43,6 +45,21 @@ MonoBehaviour:
   m_ShadowTransparentReceive: 1
   m_RenderingMode: 0
   m_AccurateGbufferNormals: 0
+--- !u!114 &230224471949598334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dcac2941805ca34a954be7af3b353cf, type: 3}
+  m_Name: Outline
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    outlineMaterial: {fileID: 2100000, guid: 979ed76778511d94291a0222ee1b1677, type: 2}
 --- !u!114 &2797631961199091159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55,19 +72,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8657169896593f4984b370c767f9c0e, type: 3}
   m_Name: ScreenSpaceOutlines
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   renderPassEvent: 300
   outlinesLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1
   outlinesOccluderLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1
   outlineSettings:
     outlineColor: {r: 0.2, g: 0, b: 0.015806103, a: 1}
-    outlineScale: 1.5
-    depthThreshold: 5.6
-    robertsCrossMultiplier: 25
+    outlineScale: 1.8
+    depthThreshold: 1
+    robertsCrossMultiplier: 10
     normalThreshold: 0.3
     steepAngleThreshold: 2
     steepAngleMultiplier: 20
@@ -77,5 +94,18 @@ MonoBehaviour:
     filterMode: 0
     backgroundColor: {r: 1, g: 1, b: 1, a: 1}
     perObjectData: 0
-    enableDynamicBatching: 1
-    enableInstancing: 1
+    enableDynamicBatching: 0
+    enableInstancing: 0
+--- !u!114 &6752438638051502930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3375f105fd0ce9469b2c87e89de41d5, type: 3}
+  m_Name: DepthNormals
+  m_EditorClassIdentifier: 
+  m_Active: 1

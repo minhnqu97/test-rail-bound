@@ -28,6 +28,7 @@ GraphicsSettings:
   m_LensFlare:
     m_Mode: 1
     m_Shader: {fileID: 102, guid: 0000000000000000f000000000000000, type: 0}
+  m_VideoShadersIncludeMode: 2
   m_AlwaysIncludedShaders:
   - {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 15104, guid: 0000000000000000f000000000000000, type: 0}
@@ -39,11 +40,32 @@ GraphicsSettings:
   - {fileID: 16000, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 16001, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 17000, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 4800000, guid: f3cf78e0783ad3f4f9c704a76f994cae, type: 3}
+  - {fileID: 4800000, guid: 7cf6e0bd6774e2a438d4701ceb5e6bae, type: 3}
+  - {fileID: 4800000, guid: c51388fd201615c4ba0761fd04d184f0, type: 3}
+  - {fileID: 4800000, guid: a9cf457341733da4c894f5668fd17edc, type: 3}
+  - {fileID: 4800000, guid: edcdbfa66a120674dbfcc060a54ab1eb, type: 3}
+  - {fileID: 4800000, guid: e41dd730c9d28014c86c8ebcd9410176, type: 3}
+  - {fileID: 4800000, guid: 931c98f5451d03f4e83ec061ccc91c8a, type: 3}
+  - {fileID: 4800000, guid: 39863a74ba34d9a47a33d8789651486d, type: 3}
+  - {fileID: 4800000, guid: ef31dc83421c32442bce0d0ac628dedc, type: 3}
+  - {fileID: 4800000, guid: 121194756ac93f54b912b16e3f5bcdd9, type: 3}
+  - {fileID: 4800000, guid: c35e8621925dc4f4c8d9acd826765924, type: 3}
+  - {fileID: 4800000, guid: 8e9d039c5cce33b4b814389ee6622395, type: 3}
+  - {fileID: 4800000, guid: 73d75a8acbc09f644aaed8f015d61c8b, type: 3}
+  - {fileID: 4800000, guid: 9bd82b774d19b574f843fa85d8fda6d8, type: 3}
+  - {fileID: 4800000, guid: eecc3986d1c43554389f5eea2188c3e7, type: 3}
+  - {fileID: 4800000, guid: f1c53f19be3ea6c46b50ce448ab7c26d, type: 3}
+  - {fileID: 4800000, guid: bd061c33e61d2e74aabbe0a2d3a5e688, type: 3}
+  - {fileID: 4800000, guid: ea23b4ebe57654d478cbcfcef9020a85, type: 3}
+  - {fileID: 4800000, guid: 83ad50680030fc84c94a33a93a3a6f0c, type: 3}
+  - {fileID: 4800000, guid: d9b5104efdb2d6743b329b68d42640dd, type: 3}
+  - {fileID: 4800000, guid: cf803be647d5ad64ea11120766369bd9, type: 3}
+  - {fileID: 4800000, guid: 6c12b195382e1774bb4ecf6b1b0243b0, type: 3}
+  - {fileID: 4800000, guid: f8e47db22fa222a419a8190c0d9cac31, type: 3}
   m_PreloadedShaders: []
-  m_SpritesDefaultMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000,
-    type: 0}
-  m_CustomRenderPipeline: {fileID: 11400000, guid: 19ba41d7c0026c3459d37c2fe90c55a0,
-    type: 2}
+  m_SpritesDefaultMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_CustomRenderPipeline: {fileID: 11400000, guid: e02d290818bb7437a8ecb1128f787a6e, type: 2}
   m_TransparencySortMode: 0
   m_TransparencySortAxis: {x: 0, y: 0, z: 1}
   m_DefaultRenderingPath: 1
@@ -64,5 +86,5 @@ GraphicsSettings:
   m_AlbedoSwatchInfos: []
   m_LightsUseLinearIntensity: 1
   m_LightsUseColorTemperature: 0
+  m_DefaultRenderingLayerMask: 1
   m_LogWhenShaderIsCompiled: 0
-  m_AllowEnlightenSupportForUpgradedProject: 1
