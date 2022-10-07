@@ -7,12 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Outline
-  m_Shader: {fileID: -6465566751694194690, guid: 7062b22628df1d643876a3102bfe0224, type: 3}
+  m_Name: Shader Graphs_BakeGroundUnlitShader
+  m_Shader: {fileID: -6465566751694194690, guid: 20ae5b8dbab69f2499d4df63f5cbf949, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 1
-  m_DoubleSidedGI: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -31,12 +31,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - Vector1_31dd6915b88741d3b4fa332a99138dd2: 0.01
-    - Vector1_4173edae8eb44681982f96c4ad35a3b6: 1.75
-    - Vector1_53070c4730ca495aa94320f89f4594b3: 4
-    - Vector1_feab9db7cd5146fc935e01c8e00be7ed: 2
-    m_Colors:
-    - Color_ed3daf2d5b6d49c09155a759bc4d6845: {r: 0.14150941, g: 0.04082003, b: 0, a: 1}
-    - Vector4_dc0f257d9ae3441aa8a4d4eb92a942aa: {r: 0, g: 0, b: 0, a: 0}
+    m_Floats: []
+    m_Colors: []
   m_BuildTextureStacks: []
