@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Floor
-  m_Shader: {fileID: -6465566751694194690, guid: 20ae5b8dbab69f2499d4df63f5cbf949, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: dd161e4931b442e45be8523b3dc4f4ef, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 6
   m_EnableInstancingVariants: 1
@@ -107,6 +107,18 @@ Material:
     - _Min: 0
     - _Mode: 0
     - _OcclusionStrength: 1
+    - _OutlineAcuteDepthThreshold: 1
+    - _OutlineAcuteStartDot: 1
+    - _OutlineDepthStrength: 1
+    - _OutlineDepthThreshold: 1
+    - _OutlineDepthTightening: 1
+    - _OutlineFarNormalEndDepth: 10
+    - _OutlineFarNormalStartDepth: 1
+    - _OutlineFarNormalThreshold: 1.5
+    - _OutlineNormalStrength: 1
+    - _OutlineNormalThreshold: 1
+    - _OutlineNormalTightening: 1
+    - _OutlineThickness: 0.0015
     - _Parallax: 0.02
     - _PosterizeMax: 0.11
     - _PosterizeMin: 0.06
@@ -138,6 +150,7 @@ Material:
     - _ColorMin: {r: 0.9056604, g: 0.8693685, b: 0.47419012, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Offset: {r: 32.9, g: -37.6, b: 0, a: 0}
+    - _OutlineColor: {r: 0.2924528, g: 0.08028116, b: 0, a: 1}
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
     - _Tilling: {r: 2, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []
