@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Floor
+  m_Name: M_Floor_Baked
   m_Shader: {fileID: -6465566751694194690, guid: 20ae5b8dbab69f2499d4df63f5cbf949, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 6
