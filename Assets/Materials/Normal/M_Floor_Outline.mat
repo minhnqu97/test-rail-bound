@@ -23,6 +23,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _BlendTex:
+        m_Texture: {fileID: 2800000, guid: d56c79f4eb8f06f4bbbbedc3d8bb5128, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -93,6 +97,7 @@ Material:
     - _AlphaClip: 0
     - _AmbientEnvironmentMultiplier: 1
     - _Blend: 0.37
+    - _BlendValue: 0.78
     - _BumpScale: 1
     - _Cull: 2
     - _Cutoff: 0.5
@@ -119,7 +124,7 @@ Material:
     - _OutlineDepthTightening: 1
     - _OutlineFarNormalEndDepth: 10
     - _OutlineFarNormalStartDepth: 1
-    - _OutlineFarNormalThreshold: 1.5
+    - _OutlineFarNormalThreshold: 0.1
     - _OutlineNormalStrength: 1
     - _OutlineNormalThreshold: 1
     - _OutlineNormalTightening: 1
@@ -146,6 +151,10 @@ Material:
     - _Step2: 0.18
     - _Step4: 0.24
     - _Surface: 0
+    - _TerrainOutlineStrength: 1
+    - _TerrainOutlineWidth: 0.134
+    - _TerrainThreshold: 0.09
+    - _TerrainTightening: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
@@ -157,7 +166,7 @@ Material:
     - _ColorMin: {r: 0.9056604, g: 0.8693685, b: 0.47419012, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Offset: {r: 32.9, g: -37.6, b: 0, a: 0}
-    - _OutlineColor: {r: 0.2924528, g: 0.08028116, b: 0, a: 1}
+    - _OutlineColor: {r: 0.20754719, g: 0.060947716, b: 0.00489498, a: 1}
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
     - _Tilling: {r: 2, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []
