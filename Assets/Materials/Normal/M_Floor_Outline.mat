@@ -97,7 +97,7 @@ Material:
     - _AlphaClip: 0
     - _AmbientEnvironmentMultiplier: 1
     - _Blend: 0.37
-    - _BlendValue: 0.78
+    - _BlendValue: 0.45
     - _BumpScale: 1
     - _Cull: 2
     - _Cutoff: 0.5
@@ -126,9 +126,9 @@ Material:
     - _OutlineFarNormalStartDepth: 1
     - _OutlineFarNormalThreshold: 0.1
     - _OutlineNormalStrength: 1
-    - _OutlineNormalThreshold: 1
+    - _OutlineNormalThreshold: 0.0001
     - _OutlineNormalTightening: 1
-    - _OutlineThickness: 0.0015
+    - _OutlineThickness: 0.0012
     - _Parallax: 0.02
     - _PosterizeMax: 0.11
     - _PosterizeMin: 0.06
@@ -152,8 +152,8 @@ Material:
     - _Step4: 0.24
     - _Surface: 0
     - _TerrainOutlineStrength: 1
-    - _TerrainOutlineWidth: 0.134
-    - _TerrainThreshold: 0.09
+    - _TerrainOutlineWidth: 0.14
+    - _TerrainThreshold: 0.111
     - _TerrainTightening: 1
     - _UVSec: 0
     - _ZWrite: 1
@@ -162,11 +162,11 @@ Material:
     - _AmbientColor: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 0.913613, g: 1, b: 0.8254717, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _ColorMax: {r: 0.18682511, g: 0.20754719, b: 0.08321468, a: 1}
-    - _ColorMin: {r: 0.9056604, g: 0.8693685, b: 0.47419012, a: 1}
+    - _ColorMax: {r: 0.8301887, g: 0.41656289, b: 0.16838734, a: 1}
+    - _ColorMin: {r: 1, g: 0.6901961, b: 0.3882353, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Offset: {r: 32.9, g: -37.6, b: 0, a: 0}
-    - _OutlineColor: {r: 0.20754719, g: 0.060947716, b: 0.00489498, a: 1}
+    - _OutlineColor: {r: 0.23584908, g: 0.06633256, b: 0, a: 1}
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
     - _Tilling: {r: 2, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []

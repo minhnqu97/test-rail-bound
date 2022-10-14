@@ -15,6 +15,7 @@ public class BakeGroundCamera : MonoBehaviour
 
     public void Start()
     {
+        Application.targetFrameRate = 30;
         m_bakedGroundTexture = new RenderTexture(2 * Screen.width, 2 * Screen.height, 2, RenderTextureFormat.ARGB32);
         m_groundCamera.targetTexture = m_bakedGroundTexture;
         m_finalGroundRenderer.sharedMaterial.SetTexture("_MainTex", m_bakedGroundTexture);

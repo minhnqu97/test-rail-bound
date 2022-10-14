@@ -80,7 +80,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_d5a984d3dc5d4f33ba4a91d9a04f337d: 1.72
+    - Vector1_d5a984d3dc5d4f33ba4a91d9a04f337d: 4
     - _AmbientEnvironmentMultiplier: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -108,7 +108,7 @@ Material:
     - _OutlineNormalStrength: 1
     - _OutlineNormalThreshold: 1
     - _OutlineNormalTightening: 1
-    - _OutlineThickness: 0.001
+    - _OutlineThickness: 0.0005
     - _Parallax: 0.02
     - _RimAmount: 0.7
     - _RimStrength: 0.3
@@ -121,7 +121,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _AmbientColor: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 0}
-    - _BaseColor: {r: 0.6792453, g: 0.55549127, b: 0.3492346, a: 0.5019608}
+    - _BaseColor: {r: 1, g: 0.248857, b: 0, a: 0.5019608}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineColor: {r: 0.19811317, g: 0.05503142, b: 0, a: 1}
